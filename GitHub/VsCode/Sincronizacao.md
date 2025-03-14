@@ -11,7 +11,7 @@
 
    **Comando:**
    ```bash
-   git pull origin master
+   git pull
    ```
    Isso vai trazer as alterações do repositório remoto para a sua cópia local.
 

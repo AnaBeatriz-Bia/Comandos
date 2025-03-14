@@ -1,4 +1,3 @@
-```markdown
 # 🌟 Instalando o dlib no Windows 🌟
 
 Se o **dlib** não estiver instalado, não se preocupe! Aqui estão os passos para você instalar tudinho e começar a usar essa ferramenta incrível! 💻✨
@@ -51,7 +50,4 @@ E se quiser integrar o **OpenCV** com o **dlib**, execute:
 
 ```bash
 pip install opencv-python dlib
-```
-
-🚀 Agora você está pronto(a) para usar o **dlib** no seu projeto! 🙌
 ```

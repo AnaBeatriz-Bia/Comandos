@@ -29,12 +29,12 @@
      ```
    - **Envie para o GitHub** (atualize o repositório remoto):
      ```bash
-     git push origin master
+     git push
      ```
 
 ### Resumo:
 
-- **Alterações no GitHub (site)**: Para que sua área de trabalho tenha essas mudanças, você precisa rodar o comando `git pull origin master` no terminal.
+- **Alterações no GitHub (site)**: Para que sua área de trabalho tenha essas mudanças, você precisa rodar o comando `git pull` no terminal.
 - **Alterações na sua área de trabalho**: Quando fizer alterações na sua área de trabalho e quiser que elas apareçam no GitHub, você precisa fazer `git add`, `git commit` e `git push`.
 
 ### Sincronização Automática:

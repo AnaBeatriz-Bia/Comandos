@@ -79,8 +79,55 @@ git clone https://github.com/seu-usuario/vision_model_cimatec.git
 cd vision_model_cimatec
 git lfs pull
 ```
-
+## Histórico do Terminal
 ```
-
-Se desejar, posso salvar esse conteúdo com nome de arquivo sugerido como `upload_dataset_git_lfs.md`. Deseja que eu faça isso?
+git --version
+git lfs --version
+git clone "https://github.com/gisellyreis/vision_model_cimatec.git"
+ls
+cd vision_model_cimatec/
+ls
+mkdir -p datasets
+cd datasets/
+ls
+cd ..
+cd ~/Downloads
+ls
+git init
+cd ..
+cd vision_model_cimatec/
+ls
+git lfs track "*.jpg"
+git lfs track "*.png"
+git lfs track "*.txt"
+git add .gitattributes
+ls
+cd datasets
+git add AFO
+git lfs track "*.names"
+git status
+git add AFO
+git status
+cd ..
+git lfs track "*.jpg"
+git lfs track "*.names"
+git lfs track "*.txt"
+git lfs track "*.png"
+git add .gitattributes
+git status
+cd datasets/
+git status
+git add .gitattributes
+git lfs track "*.txt"
+git lfs track "*.png"
+git lfs track "*.jpg"
+git lfs track "*.names"
+git add AFO
+git lfs track "*.names"
+git add AFO
+git status
+git commit -m "Added AFO dataset with Git LFS"
+git push
+git status
+Get-Content "$env:USERPROFILE\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
 ```

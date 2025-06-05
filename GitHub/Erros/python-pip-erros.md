@@ -87,18 +87,9 @@ py -m pip install pillow matplotlib
 
 ---
 
-## 📌 Resumo prático
+## Outras instalações
 
-```bash
-py --version
-py -m pip install pillow matplotlib
-```
-
-Se for usar ambiente virtual:
-
-```bash
-py -m venv venv
-.\venv\Scripts\Activate
-py -m pip install pillow matplotlib
+``` bash
+py -m pip install opencv-python
 ```
 

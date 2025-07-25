@@ -81,3 +81,33 @@ scancel <job_id>	#Cancela um job
 sacct	#Mostra histórico de jobs
 scontrol show job <job_id>	#Detalhes de um job específico
 ```
+# 💡Como entrar na pasta compartilhada do HPC?
+```
+ssh ana.hougaz@ogun-login0.senaicimatec.com.br -p 5001 -v
+```
+## Voce vai chegar aqui no seu usuário
+```
+[ana.hougaz@login0 ~]$
+```
+## Depois vai digitar:
+```
+cd /scratch/academico-cimatec/ccad
+```
+## Então vai entrar no login:
+```
+[ana.hougaz@login0 ccad]$ 
+[ana.hougaz@login0 ccad]$ ls
+datasets  env  modelos 
+[ana.hougaz@login0 ccad]$ cd datasets/
+[ana.hougaz@login0 datasets]$ ls
+data.yaml  seadronessee  seadronessee.zip
+```
+## Aqui voce edita os arquivos usando nano:
+```
+[ana.hougaz@login0 datasets]$ nano data.yaml
+```
+# 💡Entrando para enviar o dataset
+```
+scp -P 5001 C:\Users\ana.hougaz\.vscode\github\AFO_dataset\data\AFO\dataset_yolo_organized.zip ana.hougaz@ogun-login0.senaicimatec.com.br:/home/ana.hougaz
+```
+

@@ -85,3 +85,16 @@ Gerenciador de pacotes do Python, usado para instalar ou atualizar bibliotecas.
 * **Uso:** `pip install nome_do_pacote`
 * `--upgrade`: Força a atualização de um pacote já instalado para a versão mais recente.
     * **Exemplo:** `pip install --upgrade matplotlib`
+ 
+## Como contar a quantidade de imagens dos datasets
+
+Opção 1
+```
+ls *.jpg *.PNG *.jpeg *.PNG 2> /dev/n
+ull | wc -l
+```
+Opção 2
+```
+find . -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) | wc -l
+25233
+```

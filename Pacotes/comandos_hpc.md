@@ -90,11 +90,9 @@ Gerenciador de pacotes do Python, usado para instalar ou atualizar bibliotecas.
 
 Opção 1
 ```
-ls *.jpg *.PNG *.jpeg *.PNG 2> /dev/n
-ull | wc -l
+ls *.jpg *.PNG *.jpeg *.PNG 2> /dev/null | wc -l
 ```
 Opção 2
 ```
 find . -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) | wc -l
-25233
 ```
